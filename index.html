@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+				
+    <title>Document</title>
+</head>
+<body>
+
+
+
+<section class="banner">
+<div class="nikki">
+    <div class="item">
+<figure><img src="images/pics.jpeg"></figure>
+<div class="content"><h1>this is slider</h1>
+
+<p>this is paragraph</p>
+</div>
+
+    </div>
+    <div class="item">
+        <figure><img src="images/apple.png"></figure>
+        <div class="content"><h1>this is second slider</h1>
+        
+        <p>this is paragraph</p>
+        </div>
+        
+            </div>
+
+</div>   
+
+</section>
+
+       
+
+
+
+
+
+
+
+
+      <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.nikki').slick({
+        slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed:100,
+
+      });
+    });
+  </script>
+				
+                       
+</body>
+
+				
+</html>
